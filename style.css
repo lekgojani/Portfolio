@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+#unorderlist-first {
+    padding: 0px;
+    margin: 0px;
+}
+#unorderlist-second a{
+    text-decoration: none;
+    color: #0052B4;
+    font-family: cursive;
+    font-size: 20px;
+}
+#unorderlist-second li {
+    margin-left: 20px;
+    padding: 12px 14px;
+}
+#unorderlist-second #button-stilization {
+    border-radius: 50px;
+    border: 2.5px solid #0052B4;
+}
+#unorderlist-second #button-stilization:hover {
+    color: white;
+    background-color: #0052B4;
+    transition-duration: 0.3s;
+}
